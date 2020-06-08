@@ -1,5 +1,34 @@
 # axios express and mysql
 
+## express definitions
+
+### retrive information from post request
+
+```req.body```
+
+### retriving query strings and query parameters
+
+#### query string example
+
+- incoming get request: my-url-path?name=foo
+
+`router.get('/my-url-path', (req, res, next) => {
+  const name = req.query.name
+  // SQL code HERE
+  res.send()
+})`
+
+#### query param example
+
+- incoming get request: my-url-path/1
+
+`router.get('/my-url-path/:id', (req, res, next) => {
+  const name = req.param.id
+  // SQL code HERE
+  res.send()
+})`
+
+
 ## crud operations:
 
 ### creating a resource
