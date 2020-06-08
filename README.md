@@ -9,11 +9,11 @@
 
 ### express: (listening to post request)
 
-router.post('/some-url-path', (req, res, next) => {
+`router.post('/some-url-path', (req, res, next) => {
   const objectSentFromPost = req.body
   // SQL code HERE
   res.send()
-})
+})`
 
 ### CREATE in SQL (SQL code HERE):
 ```INSERT INTO users (first, last) VALUES ('john', 'smith');```
