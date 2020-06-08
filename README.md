@@ -19,9 +19,7 @@ express/axios (patch, put request)
 
 UPDATE in SQL:
 
-```UPDATE users
-SET first = 'a'
-WHERE id = 1;```
+```UPDATE users SET first = 'a' WHERE id = 1;```
 
 
 DELETE:
@@ -29,5 +27,4 @@ express/axios (delete request)
 
 DELETE in SQL:
 
-```DELETE * FROM users
-WHERE id = 1```
+```DELETE * FROM users WHERE id = 1```
