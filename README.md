@@ -69,3 +69,11 @@
     console.log(results)
     res.json(results)
 })`
+
+### an example of a route with sql code together
+
+```router.get('\/some-get-path\', (req, res, next) => {
+  conn.query('SELECT * FROM todos;' (err, results) => {
+    res.json(results)
+  })
+})```
