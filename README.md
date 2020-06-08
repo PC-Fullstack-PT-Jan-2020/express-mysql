@@ -1,4 +1,4 @@
-# express-mysql
+# axios express and mysql
 
 ## crud operations:
 
