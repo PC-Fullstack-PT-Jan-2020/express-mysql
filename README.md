@@ -28,6 +28,9 @@
   res.send()
 })`
 
+Example of query string and params below:
+
+https://www.youtube.com/watch?v=Q4LzkQ3icRg&list=PLa5bYMAqOz6NzPkb4tFAXDzpvFKzD0MBh&index=112
 
 ## crud operations:
 
