@@ -32,7 +32,7 @@ DELETE in SQL:
 
 Executing sql statements from express:
 
-```conn.query('SELECT * FROM todos;', (err, results) => {
+```conn.query(SELECT * FROM todos;, (err, results) => {
     console.log(results)
     res.json(results)
-  })```
+})```
