@@ -3,13 +3,23 @@
 ## crud operations:
 
 CREATE:
-express/axios: (post request)
+axios: (post request)
+
+```axios.post('/some-url-path', obj)```
+
+express: (listening to post request)
+
+```router.post('/some-url-path', (req, res, next) => {
+  const objectSentFromPost = req.body
+  res.send()
+})```
 
 CREATE in SQL:
 ```INSERT INTO users (first, last) VALUES ('john', 'smith');```
 
 READ:
 express/axios: (get request)
+```axios.get('/some-url-path')```
 
 READ in SQL:
 ```SELECT * FROM users;```
