@@ -28,3 +28,11 @@ express/axios (delete request)
 DELETE in SQL:
 
 ```DELETE * FROM users WHERE id = 1```
+
+
+Executing sql statements from express:
+
+```conn.query('SELECT * FROM todos;', (err, results) => {
+    console.log(results)
+    res.json(results)
+  })```
