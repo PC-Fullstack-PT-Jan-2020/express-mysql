@@ -65,14 +65,14 @@
 ```DELETE * FROM users WHERE id = 1```
 
 
-### How to call sql statements from express:
+# How to call sql statements from express:
 
 `conn.query('SELECT * FROM todos;' (err, results) => {
     console.log(results)
     res.json(results)
 })`
 
-### an example of a route with sql code together
+# an example of a route with sql code together
 
 `router.get('/some-get-path', (req, res, next) => {
   conn.query('SELECT * FROM todos;' (err, results) => {
