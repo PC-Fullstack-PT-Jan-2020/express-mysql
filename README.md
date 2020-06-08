@@ -23,7 +23,7 @@
 - incoming get request: my-url-path/1
 
 `router.get('/my-url-path/:id', (req, res, next) => {
-  const name = req.param.id
+  const name = req.params.id
   // SQL code HERE
   res.send()
 })`
