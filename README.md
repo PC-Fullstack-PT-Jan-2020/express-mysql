@@ -2,6 +2,8 @@
 
 ## crud operations:
 
+### creating a resource
+
 ## CREATE:
 ### axios: (post request)
 
